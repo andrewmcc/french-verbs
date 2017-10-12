@@ -1,0 +1,483 @@
+{
+  "verbs": [
+  {
+    "infinitive": "être",
+    "translation": "To be",
+    "tenses": [
+    {
+      "name": "présent",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "je", "answer": "suis", "english": "I am"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "es", "english": "You are"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "est", "english": "He/she/one is"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "sommes", "english": "We are"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "êtes", "english": "You are"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "sont", "english": "They are"}
+      ]
+    },
+    {
+      "name": "imparfait",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "j'", "answer": "étais", "english": "I was"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "étais", "english": "You were"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "était", "english": "He/she/one was"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "étions", "english": "We were"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "étiez", "english": "You were"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "étaient", "english": "They were"}
+      ]
+    },
+    {
+      "name": "passé composé",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "j'", "answer": "ai été", "english": "I have been"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "as été", "english": "You have been"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "a été", "english": "He/she/one has been"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "avons été", "english": "We have been"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "avez été", "english": "You have been"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "ont été", "english": "They have been"}
+      ]
+    },
+    {
+      "name": "futur",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "je", "answer": "serai", "english": "I will be"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "seras", "english": "You will be"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "sera", "english": "He/she/one will be"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "serons", "english": "We will be"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "serez", "english": "You will be"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "seront", "english": "They will be"}
+      ]
+    },
+    {
+      "name": "conditionnel",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "je", "answer": "serais", "english": "I would be"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "serais", "english": "You would be"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "serait", "english": "He/she/one would be"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "serions", "english": "We would be"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "seriez", "english": "You would be"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "seraient", "english": "They would be"}
+      ]
+    }]
+  },
+  {
+    "infinitive": "avoir",
+    "translation": "To have",
+    "tenses": [
+    {  
+      "name": "présent",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "j'", "answer": "ai", "english": "I have"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "as", "english": "You have"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "a", "english": "He/she/one has"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "avons", "english": "We have"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "avez", "english": "You have"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "ont", "english": "They have"}
+      ]
+    },
+    {
+      "name": "imparfait",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "j'", "answer": "avais", "english": "I had"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "avais", "english": "You had"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "avait", "english": "He/she/one had"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "avions", "english": "We had"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "aviez", "english": "You had"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "avaient", "english": "They had"}
+      ]
+    },
+    {
+      "name": "passé composé",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "j'", "answer": "ai eu", "english": "I have had"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "as eu", "english": "You have had"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "a eu", "english": "He/she/one has had"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "avons eu", "english": "We have had"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "avez eu", "english": "You have had"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "ont eu", "english": "They have had"}
+      ]
+    },
+    {
+      "name": "futur",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "j'", "answer": "aurai", "english": "I will have"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "auras", "english": "You will have"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "aura", "english": "He/she/one will have"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "aurons", "english": "We will have"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "aurez", "english": "You will have"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "auront", "english": "They will have"}
+      ]
+    },
+    {
+      "name": "conditionnel",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "j'", "answer": "aurais", "english": "I would have"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "aurais", "english": "You would have"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "aurait", "english": "He/she/one would have"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "aurions", "english": "We would have"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "auriez", "english": "You would have"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "auraient", "english": "They would have"}
+      ]
+    }]
+  },
+  {
+    "infinitive": "aller",
+    "translation": "To go",
+    "tenses": [
+    {  
+      "name": "présent",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "je", "answer": "vais", "english": "I go"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "vas", "english": "You go"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "va", "english": "He/she/one go"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "allons", "english": "We go"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "allez", "english": "You go"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "vont", "english": "They go"}
+      ]
+    },
+    {
+      "name": "imparfait",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "j'", "answer": "allais", "english": "I went"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "allais", "english": "You went"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "allait", "english": "He/she/one went"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "allions", "english": "We went"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "alliez", "english": "You went"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "allaient", "english": "They went"}
+      ]
+    },
+    {
+      "name": "passé composé",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "je", "answer": "suis allé", "english": "I have gone"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "es allé", "english": "You have gone"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "est allé", "english": "He/she/one has gone"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "sommes allé", "english": "We have gone"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "êtes allé", "english": "You have gone"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "sont allés", "english": "They have gone"}
+      ]
+    },
+    {
+      "name": "futur",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "j'", "answer": "irai", "english": "I will go"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "iras", "english": "You will go"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "ira", "english": "He/she/one will go"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "irons", "english": "We will go"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "irez", "english": "You will go"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "iront", "english": "They will go"}
+      ]
+    },
+    {
+      "name": "conditionnel",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "j'", "answer": "irais", "english": "I would go"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "irais", "english": "You would go"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "irait", "english": "He/she/one would go"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "irions", "english": "We would go"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "iriez", "english": "You would go"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "iraient", "english": "They would go"}
+      ]
+    }]
+  },
+  {
+    "infinitive": "faire",
+    "translation": "To make / To do",
+    "tenses": [
+    {  
+      "name": "présent",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "je", "answer": "fais", "english": "I make/do"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "fais", "english": "You make/do"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "fait", "english": "He/she/one makes/does"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "faisons", "english": "We make/do"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "faites", "english": "You make/do"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "font", "english": "They make/do"}
+      ]
+    },
+    {
+      "name": "imparfait",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "je", "answer": "faisais", "english": "I made/did"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "faisais", "english": "You made/did"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "faisait", "english": "He/she/one made/did"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "faisions", "english": "We made/did"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "faisiez", "english": "You made/did"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "faisaient", "english": "They made/did"}
+      ]
+    },
+    {
+      "name": "passé composé",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "j'", "answer": "ai fait", "english": "I have made/done"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "as fait", "english": "You have made/done"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "a fait", "english": "He/she/one has made/done"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "avons fait", "english": "We have made/done"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "avez fait", "english": "You have made/done"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "ont fait", "english": "They have made/done"}
+      ]
+    },
+    {
+      "name": "futur",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "je", "answer": "ferai", "english": "I will make/do"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "feras", "english": "You will make/do"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "fera", "english": "He/she/one will make/do"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "ferons", "english": "We will make/do"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "ferez", "english": "You will make/do"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "feront", "english": "They will make/do"}
+      ]
+    },
+    {
+      "name": "conditionnel",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "je", "answer": "ferais", "english": "I would make/do"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "ferais", "english": "You would make/do"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "ferait", "english": "He/she/one would make/do"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "ferions", "english": "We would make/do"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "feriez", "english": "You would make/do"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "feraient", "english": "They would make/do"}
+      ]
+    }]
+  },
+  {
+    "infinitive": "savoir",
+    "translation": "To know",
+    "tenses": [
+    {  
+      "name": "présent",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "je", "answer": "sais", "english": "I know"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "sais", "english": "You know"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "sait", "english": "He/she/one knows"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "savons", "english": "We know"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "savez", "english": "You know"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "savent", "english": "They know"}
+      ]
+    },
+    {
+      "name": "imparfait",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "je", "answer": "savais", "english": "I knew"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "savais", "english": "You knew"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "savait", "english": "He/she/one knew"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "savions", "english": "We knew"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "saviez", "english": "You knew"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "savaient", "english": "They knew"}
+      ]
+    },
+    {
+      "name": "passé composé",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "j'", "answer": "ai su", "english": "I have known"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "as su", "english": "You have known"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "a su", "english": "He/she/one has known"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "avons su", "english": "We have known"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "avez su", "english": "You have known"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "ont su", "english": "They have known"}
+      ]
+    },
+    {
+      "name": "futur",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "je", "answer": "saurai", "english": "I will know"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "sauras", "english": "You will know"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "saura", "english": "He/she/one will know"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "saurons", "english": "We will know"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "saurez", "english": "You will know"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "sauront", "english": "They will know"}
+      ]
+    },
+    {
+      "name": "conditionnel",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "je", "answer": "saurais", "english": "I would know"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "saurais", "english": "You would know"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "saurait", "english": "He/she/one would know"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "saurions", "english": "We would know"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "sauriez", "english": "You would know"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "sauraient", "english": "They would know"}
+      ]
+    }]
+  },
+  {
+    "infinitive": "voir",
+    "translation": "To see",
+    "tenses": [
+    {  
+      "name": "présent",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "je", "answer": "vois", "english": "I see"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "vois", "english": "You see"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "voit", "english": "He/she/one sees"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "voyons", "english": "We see"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "voyez", "english": "You see"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "voient", "english": "They see"}
+      ]
+    },
+    {
+      "name": "imparfait",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "je", "answer": "voyais", "english": "I saw"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "voyais", "english": "You saw"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "voyait", "english": "He/she/one saw"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "voyions", "english": "We saw"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "voyiez", "english": "You saw"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "voyaient", "english": "They saw"}
+      ]
+    },
+    {
+      "name": "passé composé",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "j'", "answer": "ai vu", "english": "I have seen"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "as vu", "english": "You have seen"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "a vu", "english": "He/she/one has seen"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "avons vu", "english": "We have seen"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "avez vu", "english": "You have seen"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "ont vu", "english": "They have seen"}
+      ]
+    },
+    {
+      "name": "futur",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "je", "answer": "verrai", "english": "I will see"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "verras", "english": "You will see"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "verra", "english": "He/she/one will see"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "verrons", "english": "We will see"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "verrez", "english": "You will see"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "verront", "english": "They will see"}
+      ]
+    },
+    {
+      "name": "conditionnel",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "je", "answer": "verrais", "english": "I would see"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "verrais", "english": "You would see"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "verrait", "english": "He/she/one would see"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "verrions", "english": "We would see"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "verriez", "english": "You would see"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "verraient", "english": "They would see"}
+      ]
+    }]
+  },
+  {
+    "infinitive": "mettre",
+    "translation": "To put",
+    "tenses": [
+    {  
+      "name": "présent",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "je", "answer": "mets", "english": "I put"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "mets", "english": "You put"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "met", "english": "He/she/one puts"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "mettons", "english": "We put"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "mettez", "english": "You put"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "mettent", "english": "They put"}
+      ]
+    },
+    {
+      "name": "imparfait",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "je", "answer": "mettais", "english": "I put"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "mettais", "english": "You put"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "mettait", "english": "He/she/one put"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "mettions", "english": "We put"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "mettiez", "english": "You put"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "mettaient", "english": "They put"}
+      ]
+    },
+    {
+      "name": "passé composé",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "j'", "answer": "ai mis", "english": "I have put"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "as mis", "english": "You have put"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "a mis", "english": "He/she/one has put"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "avons mis", "english": "We have put"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "avez mis", "english": "You have put"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "ont mis", "english": "They have put"}
+      ]
+    },
+    {
+      "name": "futur",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "je", "answer": "mettrai", "english": "I will put"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "mettras", "english": "You will put"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "mettra", "english": "He/she/one will put"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "mettrons", "english": "We will put"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "mettrez", "english": "You will put"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "mettront", "english": "They will put"}
+      ]
+    },
+    {
+      "name": "conditionnel",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "je", "answer": "mettrais", "english": "I would put"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "mettrais", "english": "You would put"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "mettrait", "english": "He/she/one would put"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "mettrions", "english": "We would put"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "mettriez", "english": "You would put"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "mettraient", "english": "They would put"}
+      ]
+    }]
+  },
+  {
+    "infinitive": "connaitre",
+    "translation": "To know (someone)",
+    "tenses": [
+    {  
+      "name": "présent",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "je", "answer": "connaits", "english": "I know"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "connaits", "english": "You know"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "connait", "english": "He/she/one knows"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "connaitons", "english": "We know"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "connaitez", "english": "You know"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "connaitent", "english": "They know"}
+      ]
+    },
+    {
+      "name": "imparfait",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "je", "answer": "connaitais", "english": "I knew"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "connaitais", "english": "You knew"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "connaitait", "english": "He/she/one knew"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "connaitions", "english": "We knew"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "connaitiez", "english": "You knew"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "connaitaient", "english": "They knew"}
+      ]
+    },
+    {
+      "name": "passé composé",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "j'", "answer": "ai connaitu", "english": "I have known"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "as connaitu", "english": "You have known"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "a connaitu", "english": "He/she/one has known"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "avons connaitu", "english": "We have known"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "avez connaitu", "english": "You have known"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "ont connaitu", "english": "They have known"}
+      ]
+    },
+    {
+      "name": "futur",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "je", "answer": "connaitrai", "english": "I will know"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "connaitras", "english": "You will know"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "connaitra", "english": "He/she/one will know"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "connaitrons", "english": "We will know"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "connaitrez", "english": "You will know"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "connaitront", "english": "They will know"}
+      ]
+    },
+    {
+      "name": "conditionnel",
+      "pronouns": [
+        {"name": "firstPersonSingular", "pronoun": "je", "answer": "connaitrais", "english": "I would know"},
+        {"name": "secondPersonSingular", "pronoun": "tu", "answer": "connaitrais", "english": "You would know"},
+        {"name": "thirdPersonSingular", "pronoun": "il/elle/on", "answer": "connaitrait", "english": "He/she/one would know"},
+        {"name": "firstPersonPlural", "pronoun": "nous", "answer": "connaitrions", "english": "We would know"},
+        {"name": "secondPersonPlural", "pronoun": "vous", "answer": "connaitriez", "english": "You would know"},
+        {"name": "thirdPersonPlural", "pronoun": "ils/elles", "answer": "connaitraient", "english": "They would know"}
+      ]
+    }]
+  }
+]}

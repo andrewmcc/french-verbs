@@ -1,0 +1,89 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  background: #e8e8e8 url('paris.jpg') left top no-repeat;
+  background-position: bottom;
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+#question-card {
+  background: #fff;
+  margin: 30px auto 0 auto;
+  padding: 0;
+  text-align: center;
+  opacity: 0.9;
+  filter: alpha(opacity=90); /* For IE8 and earlier */
+  -webkit-border-radius: 2px !important;
+  -moz-border-radius: 2px !important;
+  border-radius: 2px !important;
+}
+
+#question-view {
+  background: #0094FF;
+  color: #fff;
+  padding: 10px;
+  opacity: 0.9;
+  filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+
+#stats-view {
+  background: #e7e6e6;
+  padding: 10px;
+  opacity: 0.9;
+  filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+
+#stats-view .stats, #stats-view .streak  {
+  display: inline;
+}
+
+#stats-view .stats  {
+  margin-right: 15px;
+}
+
+h1 {
+  margin: 30px 0 30px 0;
+}
+
+#question-card .pronoun p {
+  font-size: 2em;
+  margin-right: 10px;
+  display: inline;
+}
+
+#question-view>p {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  display: inline;
+}
+
+#question-card .pronoun p:first-letter {
+  text-transform: uppercase;
+}
+
+#question-card input {
+  font-size: 2em;
+  margin: 30px 0 30px 0;
+  padding: 3px;
+}
+
+#revision-view {
+  background: #fff;
+  margin: 15px auto 0 auto;
+  padding: 15px;
+  text-align: center;
+  opacity: 0.9;
+  filter: alpha(opacity=90); /* For IE8 and earlier */
+}
