@@ -8,13 +8,13 @@ import Revision from './Revision'
 let audioContext;
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAyhciG0WcfP6ZAEdaGErDslc966XO2vus",
-    authDomain: "frenchverbs.firebaseapp.com",
-    databaseURL: "https://frenchverbs.firebaseio.com",
-    projectId: "firebase-frenchverbs",
-    storageBucket: "",
-    messagingSenderId: "156765582776"
-  };
+  apiKey: "",
+  authDomain: "frenchverbs.firebaseapp.com",
+  databaseURL: "https://frenchverbs.firebaseio.com",
+  projectId: "firebase-frenchverbs",
+  storageBucket: "",
+  messagingSenderId: "156765582776"
+};
 
 class VerbDrillContainer extends Component {
 
