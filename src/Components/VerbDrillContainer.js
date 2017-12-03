@@ -8,7 +8,7 @@ import Revision from './Revision'
 let audioContext;
 
 const firebaseConfig = {
-  apiKey: "",
+  apiKey: "AIzaSyAyhciG0WcfP6ZAEdaGErDslc966XO2vus",
   authDomain: "frenchverbs.firebaseapp.com",
   databaseURL: "https://frenchverbs.firebaseio.com",
   projectId: "firebase-frenchverbs",
@@ -74,9 +74,9 @@ class VerbDrillContainer extends Component {
    * Randomly select a new verb, tense and pronoun, and return a question object
   */
   getQuestion(data) {
-    var verbIndex = this.getRandomIndex(0, (data.verbs.length - 1));
-    var tenseIndex = this.getRandomIndex(0, (data.verbs[verbIndex].tenses.length - 1));
-    var pronounIndex = this.getRandomIndex(0, (data.verbs[verbIndex].tenses[tenseIndex].pronouns.length - 1));
+    const verbIndex = this.getRandomIndex(0, (data.verbs.length - 1));
+    const tenseIndex = this.getRandomIndex(0, (data.verbs[verbIndex].tenses.length - 1));
+    const pronounIndex = this.getRandomIndex(0, (data.verbs[verbIndex].tenses[tenseIndex].pronouns.length - 1));
     const questionData = {
       'infinitive': data.verbs[verbIndex].infinitive,
       'translation': data.verbs[verbIndex].translation,
@@ -120,19 +120,19 @@ class VerbDrillContainer extends Component {
    * Substitute accented characters in a string
   */
   foldAccents(inputString) {
-    var accentMap = {'á':'a', 'é':'e', 'ê':'e', 'í':'i','ó':'o','ú':'u'};
+    const accentMap = {'á':'a', 'é':'e', 'ê':'e', 'í':'i', 'î':'i', 'ó':'o','ú':'u'};
     if (!inputString) { return ''; }
-    var returnString = '';
-    for (var i = 0; i < inputString.length; i++) {
+    let returnString = '';
+    for (let i = 0; i < inputString.length; i++) {
       returnString += accentMap[inputString.charAt(i)] || inputString.charAt(i);
     }
     return returnString;
   }
 
   capitalisePronouns(data) {
-    data.verbs.map((verb, verbId) => {
-      verb.tenses.map((tense, tenseId) => {
-        tense.pronouns.map((pronoun, pronounId) => {
+    data.verbs.forEach((verb, verbId) => {
+      verb.tenses.forEach((tense, tenseId) => {
+        tense.pronouns.forEach((pronoun, pronounId) => {
           data.verbs[verbId].tenses[tenseId].pronouns[pronounId].pronoun = this.capitalise(data.verbs[verbId].tenses[tenseId].pronouns[pronounId].pronoun);
         });
       });
@@ -148,8 +148,8 @@ class VerbDrillContainer extends Component {
    * Hack to unlock HTML5 Audio on iOS
   */
   handleTouchEnd() {
-    var buffer = audioContext.createBuffer(1, 1, 22050);
-    var sourceBuffer = audioContext.createBufferSource();
+    const buffer = audioContext.createBuffer(1, 1, 22050);
+    const sourceBuffer = audioContext.createBufferSource();
     sourceBuffer.buffer = buffer;
     sourceBuffer.connect(audioContext.destination);
     sourceBuffer.start(audioContext.currentTime);
@@ -157,33 +157,31 @@ class VerbDrillContainer extends Component {
   }
 
   playSound(buffer) {
-    var sourceBuffer = audioContext.createBufferSource();
+    const sourceBuffer = audioContext.createBufferSource();
     sourceBuffer.buffer = buffer;
     sourceBuffer.connect(audioContext.destination);
     sourceBuffer.start(audioContext.currentTime);
   }
 
   loadSound(file) {
-    var request = new XMLHttpRequest();
+    const request = new XMLHttpRequest();
     request.open('GET', file, true);
     request.responseType = 'arraybuffer';
-    var that = this;
-    request.onload = function () {
-      var undecodedAudio = request.response;
-      audioContext.decodeAudioData(undecodedAudio, function(buffer) {
-        that.playSound(buffer);
+    request.onload = () => {
+      audioContext.decodeAudioData(request.response, (buffer) => {
+        this.playSound(buffer);
       });
     };
     request.send();
   }
 
   randomPositiveSound() {
-    var positives = ['sounds/oooooui.mp3', 'sounds/oui-tres-bien.mp3', 'sounds/voila.mp3', 'sounds/exactement.mp3'];
+    const positives = ['sounds/oooooui.mp3', 'sounds/oui-tres-bien.mp3', 'sounds/voila.mp3', 'sounds/exactement.mp3'];
     this.loadSound(positives[Math.floor(Math.random() * positives.length)]);
   }
 
   randomNegativeSound() {
-    var negatives = ['sounds/cest-non.mp3', 'sounds/je-repond-non.mp3'];
+    const negatives = ['sounds/cest-non.mp3', 'sounds/je-repond-non.mp3'];
     this.loadSound(negatives[Math.floor(Math.random() * negatives.length)]);
   }
 

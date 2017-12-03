@@ -1,32 +1,36 @@
 import React, { Component } from 'react'
+import { Table, Thead, Tbody, Tr, Th } from 'react-super-responsive-table'
 import RevisionRow from './RevisionRow'
+
+import 'react-super-responsive-table/dist/SuperResponsiveTableStyle.css'
+
 
 class Revision extends Component {
 
   render() {
 
-    var rows = [];
-    this.props.data.tenses[0].pronouns.map((pronoun, id) => {
-      rows.push(<RevisionRow key={id} data={this.props.data} pronounIndex={id} />);
+    let rows = [];
+    this.props.data.tenses[0].pronouns.forEach((pronoun, id) => {
+      rows.push(<RevisionRow key={id} data={this.props.data} pronounIndex={id} />)
     });
 
     return (
       <div id="revision-view">
-        <table className="table table-striped">
-          <thead>
-            <tr>
-              <th>Pronoun</th>
-              <th>Present</th>
-              <th>Imparfait</th>
-              <th>Passé Composé</th>
-              <th>Futur</th>
-              <th>Conditionnel</th>
-            </tr>
-          </thead>
-          <tbody>
+        <Table className="table table-striped">
+          <Thead>
+            <Tr>
+              <Th>Pronoun</Th>
+              <Th>Present</Th>
+              <Th>Imparfait</Th>
+              <Th>Passé Composé</Th>
+              <Th>Futur</Th>
+              <Th>Conditionnel</Th>
+            </Tr>
+          </Thead>
+          <Tbody>
             {rows}
-          </tbody>
-        </table>
+          </Tbody>
+        </Table>
       </div>
     );
   }

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 class Stats extends Component {
   render() {
-    var percentage;
+    let percentage;
     if(this.props.totalAnswered === 0) {
       percentage = 0;
     } else {
@@ -13,7 +13,7 @@ class Stats extends Component {
         <p className="stats">{this.props.totalCorrect} / {this.props.totalAnswered} ({percentage}%)</p>
         <p className="streak">Streak: {this.props.streak}</p>
       </div>
-    );
+    )
   }
 }
 

@@ -11,7 +11,7 @@ class Answer extends Component {
           </span>
         </form>
       </div>
-    );
+    )
   }
 }
 

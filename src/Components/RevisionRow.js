@@ -1,16 +1,19 @@
 import React, { Component } from 'react'
+import { Tr, Td } from 'react-super-responsive-table'
+
+import 'react-super-responsive-table/dist/SuperResponsiveTableStyle.css'
 
 class RevisionRow extends Component {
   render() {
-    var columns = [];
+    let columns = [];
     for (let x = 0; x < this.props.data.tenses.length ; x++) {
-      columns.push(<td key={x}>{this.props.data.tenses[x].pronouns[this.props.pronounIndex].answer}</td>);
+      columns.push(<Td key={x}>{this.props.data.tenses[x].pronouns[this.props.pronounIndex].answer}</Td>)
     }
     return (
-      <tr>
-        <td>{this.props.data.tenses[0].pronouns[this.props.pronounIndex].pronoun}</td>
+      <Tr>
+        <Td>{this.props.data.tenses[0].pronouns[this.props.pronounIndex].pronoun}</Td>
         {columns}
-      </tr>
+      </Tr>
     );
   }
 }
